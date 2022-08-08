@@ -2,7 +2,7 @@ all:
 	make build_backend
 
 build_init:
-	find server/plugin/plg_* -type f -name "install.sh" -exec {} \;
+#	find server/plugin/plg_* -type f -name "install.sh" -exec {} \;
 	go generate -x ./server/...
 
 build_frontend:
