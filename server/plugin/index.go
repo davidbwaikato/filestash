@@ -24,8 +24,7 @@ import (
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_editor_onlyoffice"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_handler_console"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_handler_syncthing"
-	// **** Commented out for now, as difficulty getting it to compile with the supporting libtrancode.a library
-	// _ "github.com/mickael-kerjean/filestash/server/plugin/plg_image_light"
+	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_image_light"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_search_stateless"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_security_scanner"
 	_ "github.com/mickael-kerjean/filestash/server/plugin/plg_security_svg"
